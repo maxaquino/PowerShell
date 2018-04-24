@@ -1,0 +1,10 @@
+NetworkSet,NetworkName,Type,vlanID,vlanRange,vlanType,Subnet,NSTypicalBandwidth,NSMaximumBandwidth,TypicalBandwidth,MaximumBandwidth,SmartLink,PrivateNetwork,Purpose,FabricType,ManagedSAN,LoginRedistribution,LinkStabilityTime
+NETSET_ESX2,test esx mgmt,ethernet,1231,,Tagged,,2.5,10,2,2.5,No,No,Management,,,,
+NETSET_ESX2,test esx vmotion,ethernet,1232,,Tagged,,2.5,10,2,2.5,Yes,No,VMMigration,,,,
+NETSET_PROD2,test Prod,ethernet,,1201-1204,Tagged,,2.5,10,2,2.5,No,No,General,,,,
+NETSET1,test bluenet,ethernet,1234,,Tagged,,2.5,10,2,2.5,No,No,General,,,,
+NETSET1,test rednet,ethernet,1235,,Tagged,,2.5,10,2,2.5,No,No,General,,,,
+NETSET2,test greennet,ethernet,1236,,Tagged,,2.5,10,2,2.5,No,No,General,,,,
+,,,,,,,,,,,,,,,,,
+,test Fabric A,fc,,,,,,,2.5,10,,,,FabricAttach,VSAN1,Auto,30
+,test Fabric A FCoE,fcoe,11,,,,,,2.5,10,,,,,VSAN10,Auto,30
