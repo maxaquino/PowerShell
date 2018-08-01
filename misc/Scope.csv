@@ -1,0 +1,4 @@
+ScopeName,ScopeDescription,UserName,UserDescription,UserPassword,Networks,ServerHardware
+Client_03,Scope for Client 03,client03,client 03,password,net1=800|vlan_9=9,"CN754604F4, bay 1"
+Client_04,Scope for Client 04,client04,client 04,password,vlan_3=3|vlan_9=9,"CN754604F4, bay 1"
+
